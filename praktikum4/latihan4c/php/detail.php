@@ -25,7 +25,7 @@ $rk = query("SELECT * FROM rokok WHERE id = $id")[0];
 <body>
     <div class="container">
         <div class="pictures">
-            <img src ="../assets/img/<?= $rk["picture"]; ?>" alt="">
+            <img src ="../assets/img/<?= $rk["picturef"]; ?>" alt="">
                     <div class="ket">
                         <p><?= $rk["nama"] ?></p>
                         <p><?= $rk["merk"] ?></p>
