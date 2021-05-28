@@ -1,0 +1,17 @@
+table {
+    border: 1px solid white;
+    padding: auto;
+}
+
+td,
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: justify;
+}
+
+img {
+    height: 200px;
+}
